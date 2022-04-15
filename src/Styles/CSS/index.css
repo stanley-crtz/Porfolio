@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("../Fonts/RobotoMono-Bold.ttf"), url("../Fonts/RobotoMono-BoldItalic.ttf"), url("../Fonts/RobotoMono-ExtraLight.ttf"), url("../Fonts/RobotoMono-ExtraLightItalic.ttf"), url("../Fonts/RobotoMono-Italic-VariableFont_wght.ttf"), url("../Fonts/RobotoMono-Italic.ttf"), url("../Fonts/RobotoMono-Light.ttf"), url("../Fonts/RobotoMono-LightItalic.ttf"), url("../Fonts/RobotoMono-Medium.ttf"), url("../Fonts/RobotoMono-MediumItalic.ttf"), url("../Fonts/RobotoMono-Regular.ttf"), url("../Fonts/RobotoMono-SemiBold.ttf"), url("../Fonts/RobotoMono-SemiBoldItalic.ttf"), url("../Fonts/RobotoMono-Thin.ttf"), url("../Fonts/RobotoMono-ThinItalic.ttf"), url("../Fonts/RobotoMono-VariableFont_wght.ttf");
+}
+
+:root {
+    /* Colors */
+    --background: #282c34;
+    --text-color: #fff;
+    --text-skyblue: #0fbdf3;
+    /* Text Sizings */
+    --text-title: 25px;
+}
+
+body {
+    background-color: var(--background);
+    box-sizing: border-box;
+    color: var(--text-color);
+    margin: 0;
+    font-family: "Roboto Mono";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
