@@ -13,7 +13,7 @@ const Home = () => {
             <div className={Styles.information}>
                 <label>Hola, soy</label>
                 <h1>Johansson Rodríguez</h1>
-                <label>Desarrollador Web</label>
+                <label>desarrollador web</label>
             </div>
             <img alt="Avatar" src={Avatar} />
         </section>

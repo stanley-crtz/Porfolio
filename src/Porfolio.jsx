@@ -5,6 +5,7 @@ import React from 'react';
 import AboutMe from 'Components/AboutMe';
 import Home from 'Components/Home';
 import Navbar from 'Components/Navbar';
+import Tecnologies from 'Components/Tecnologies';
 
 const Porfolio = () => {
     return (
@@ -12,6 +13,7 @@ const Porfolio = () => {
             <Navbar />
             <Home />
             <AboutMe />
+            <Tecnologies />
         </>
     );
 };

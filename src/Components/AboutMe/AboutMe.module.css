@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .container {
@@ -32,4 +33,20 @@
 .information {
     text-align: left;
     height: 100%;
+}
+
+@media screen and (max-width: 628px) {
+    .container {
+        grid-template-columns: 1fr;
+        height: max-content;
+    }
+    .container>.img {
+        width: 1fr;
+        height: max-content;
+    }
+    .img>img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
 }

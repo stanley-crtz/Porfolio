@@ -1,3 +1,5 @@
+import { ThemeProvider } from '@mui/material';
+import { theme } from 'Config/Material';
 import Porfolio from 'Porfolio';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
@@ -7,8 +9,10 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render( 
-    <React.StrictMode >
-        <Porfolio /> 
+    <React.StrictMode>
+        <ThemeProvider theme={theme}>
+            <Porfolio /> 
+        </ThemeProvider>
     </React.StrictMode>
 );
 

@@ -8,8 +8,13 @@
     --background: #282c34;
     --text-color: #fff;
     --text-skyblue: #0fbdf3;
+    --grayBorder: #c4c4c4;
     /* Text Sizings */
     --text-title: 25px;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {

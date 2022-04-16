@@ -5,11 +5,11 @@
     height: 100vh;
     justify-items: center;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .information {
     font-size: var(--text-title);
-    box-sizing: border-box;
     margin-left: 10px;
 }
 
@@ -24,6 +24,10 @@
     animation: typing 4s steps(19) 1s 1 normal both, blink 1s steps(1) infinite;
 }
 
+.drawerPaper {
+    background-color: var(--background) !important;
+}
+
 @keyframes typing {
     from {
         width: 0;
@@ -36,5 +40,23 @@
 @keyframes blink {
     50% {
         border-color: transparent;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .container {
+        height: max-content;
+        margin-top: 5rem;
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    .container>img {
+        display: none;
+    }
+    .information>h1 {
+        white-space: unset;
+        width: 100%;
+        animation: none;
+        border-right: none;
     }
 }
