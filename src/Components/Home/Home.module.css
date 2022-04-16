@@ -6,11 +6,13 @@
     justify-items: center;
     width: 100%;
     margin-bottom: 50px;
+    position: relative;
 }
 
 .information {
     font-size: var(--text-title);
     margin-left: 10px;
+    text-align: left;
 }
 
 .information>h1 {
@@ -52,6 +54,9 @@
     }
     .container>img {
         display: none;
+    }
+    .information {
+        text-align: center;
     }
     .information>h1 {
         white-space: unset;

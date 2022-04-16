@@ -9,8 +9,8 @@ import Styles from './AboutMe.module.css';
 
 const AboutMe = () => {
     return (
-        <section className={Styles.section}>
-            <h2>About Me</h2>
+        <section className={[Styles.section, ''].join(' ')}>
+            <h2 className="intersection" data-id="1">Sobre mí</h2>
             <div className={Styles.container}>
                 
                 <div className={Styles.img}>

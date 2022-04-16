@@ -10,7 +10,7 @@ import Styles from './Testimonials.module.css';
 const Testimonials = () => {
     return (
         <section className={Styles.section}>
-            <h2>Testimonials</h2>
+            <h2>Testimonios</h2>
             <div className={Styles.cards}>
                 <Card
                     name="Douglas Hernandez"

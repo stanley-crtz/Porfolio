@@ -51,8 +51,8 @@ const Tecnologies = () => {
     ], []);
 
     return (
-        <section className={Styles.section}>
-            <h2>Tecnologies</h2>
+        <section className={[Styles.section].join(' ')}>
+            <h2 className="intersection" data-id="2">Tecnologías</h2>
             <Tabs headers={headers} items={items} />
         </section>
     );

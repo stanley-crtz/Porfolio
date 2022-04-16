@@ -13,8 +13,8 @@ import Styles from './Projects.module.css';
 
 const Projects = () => {
     return (
-        <section className={Styles.section}>
-            <h2>Projects</h2>
+        <section className={[Styles.container].join(' ')}>
+            <h2 className="intersection" data-id="3">Proyectos</h2>
             <div className={Styles.cards}>
                 <Card
                     title="SRPD"
