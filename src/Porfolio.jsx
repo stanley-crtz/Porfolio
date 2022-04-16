@@ -7,7 +7,8 @@ import Home from 'Components/Home';
 import Navbar from 'Components/Navbar';
 import Tecnologies from 'Components/Tecnologies';
 import Projects from 'Components/Projects';
-import References from 'Components/References';
+import Testimonials from 'Components/Testimonials';
+import Contact from 'Components/Contact';
 
 const Porfolio = () => {
     return (
@@ -17,7 +18,8 @@ const Porfolio = () => {
             <AboutMe />
             <Tecnologies />
             <Projects />
-            <References />
+            <Testimonials />
+            <Contact />
         </>
     );
 };

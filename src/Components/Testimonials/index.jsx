@@ -5,9 +5,9 @@ import React from 'react';
 import Card from './Components/Card';
 
 // Styles
-import Styles from './References.module.css';
+import Styles from './Testimonials.module.css';
 
-const References = () => {
+const Testimonials = () => {
     return (
         <section className={Styles.section}>
             <h2>Testimonials</h2>
@@ -21,7 +21,7 @@ const References = () => {
                 <Card
                     name="Josue Aparicio"
                     profile="https://scontent.fsal3-1.fna.fbcdn.net/v/t39.30808-6/272075120_2089620781195868_7557173066491340453_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=8pOoof-vbwgAX-nuvCS&_nc_ht=scontent.fsal3-1.fna&oh=00_AT9TscYiuK2ChrB78L_O12ZXfA2vJdoSe1sMqzlqCLVUNQ&oe=625F4685"
-                    job="Frontend Development"
+                    job="Software Developer"
                     testimonial="Johan es un desarrollador fuera de serie, es el mejor en lo que hace y puede resolver cualquier problema que se proponga, independientemente de su dificultad. Tiene una capacidad impresionante de compartir fácilmente sus conocimientos con otros y vuelve ameno el espacio de trabajo en el que está. En el tiempo que compartí con él en el trabajo, me enseñó muchas cosas y siempre estuvo dispuesto a aprender también de mí."
                 />
             </div>
@@ -29,4 +29,4 @@ const References = () => {
     );
 };
 
-export default References;
+export default Testimonials;

@@ -6,6 +6,7 @@ import Card from './Components/Card';
 
 // Images
 import Vobox from 'Styles/Images/VoboxES.png';
+import WakaiOtaku from 'Styles/Images/WakaiOtaku.png';
 
 // Styles
 import Styles from './Projects.module.css';
@@ -32,6 +33,12 @@ const Projects = () => {
                     description="Vobox ES es una plataforma pensada para las personas que ejercen voluntariados en El Salvador, evitando molestos viajes para inscribirse a alguna actividad de voluntariado. En Vobox se cuenta con un apartado de chat donde se agregan personas que estaran en una actividad, podiendo realizar chats y registrar las actividades en un calendario estilo Google Calendar donde se le notificara a los miembros del grupo la proxima actividad, contando tambien con un mapa donde se registra la direccion de dicha actividad."
                     img={Vobox}
                     chips={['React', 'Firebase', 'Material UI']}
+                />
+                <Card
+                    title="Wakai Otaku"
+                    description="Wakai Otaku es una plataforma para ver los proximos animes que saldran por temporada, esta aplicación se realizo como ejercicio de una instructoria que se impartio a los estudiantes de nuevo ingreso de mi facultad"
+                    img={WakaiOtaku}
+                    chips={['Angular', 'React', 'Firebase', 'Anime Api']}
                 />
             </div>
         </section>
